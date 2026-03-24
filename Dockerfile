@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     make \
     g++ \
     libfbclient2 \
-    libfbclient-dev
+    firebird-dev
 
 WORKDIR /app
 
